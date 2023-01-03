@@ -5,9 +5,9 @@
 </p>
 
 ## Index 
-1. [Summary](https://github.com/imverma/-Hotel-Review-Analysis#summary)
-2. [File Directory](https://github.com/imverma/-Hotel-Review-Analysis#file-directory)
-3. [Language and Packages Used](https://github.com/imverma/-Hotel-Review-Analysis#language-and-packages-used)
+1. [Summary]
+2. [File Directory]
+3. [Language and Packages Used]
 
 
 ## Summary 
