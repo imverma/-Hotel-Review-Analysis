@@ -1,4 +1,4 @@
-# hotel-review-text-mining
+# Hotel Review Analysis
 
 <p align="center">
 <img src="https://github.com/ianjeffries/text-sentiment-analysis/blob/master/images/header_wordcloud.PNG" alt="alt text" width="790" height="570">
@@ -37,30 +37,6 @@ The following project utilizes R to mine sentiment from over 21,000 hotel review
 
 ## Language and Packages Used
 
-R is used for all model building - the results are compared in R vs SAS.
+R is used for all model building.
 
-The following packages are used:
-  
-  ```
-#list of packages used
-packages <- c("tm", "wordcloud", "lubridate", "SnowballC", "ggplot2", "dplyr", "tidyr")
 
-#check to see if package is already installed
-for(p in packages){
-  if(!require(p, character.only = TRUE)) {
-    install.packages(p)
-    library(p, character.only = TRUE)
-  }
-}
-```
-
-## Credits
-
-1. Would like to thank Dr. Mo Saraee from the University of Salford for the maldives_hotel_reviews.csv dataset.
-2. Would like to thank Bing Liu and Minqing Hu for the negative-lexicon.txt and positive-lexicon.txt files, which were taken off of [their website](https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html#lexicon).
-
-## License 
-
-MIT License
-Copyright (c) 2019 Ian Jeffries
-  
