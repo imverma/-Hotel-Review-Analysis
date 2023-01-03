@@ -5,35 +5,34 @@
 </p>
 
 ## Index 
-1. [Summary](https://github.com/ianjeffries/text-sentiment-analysis#summary)
-2. [File Directory](https://github.com/ianjeffries/text-sentiment-analysis#file-directory)
-3. [Language and Packages Used](https://github.com/ianjeffries/text-sentiment-analysis#language-and-packages-used)
-4. [Credits](https://github.com/ianjeffries/text-sentiment-analysis#credits)
-5. [License](https://github.com/ianjeffries/text-sentiment-analysis#license)
+1. [Summary](https://github.com/imverma/-Hotel-Review-Analysis#summary)
+2. [File Directory](https://github.com/imverma/-Hotel-Review-Analysis#file-directory)
+3. [Language and Packages Used](https://github.com/imverma/-Hotel-Review-Analysis#language-and-packages-used)
+
 
 ## Summary 
-The following project utilizes R to mine sentiment from over 21,000 hotel reviews on resorts located in the Republic of Maldives, a South Asian country located in the Indian Ocean. 
+The following project utilizes R to mine sentiment from over 21,000 hotel reviews on resorts located across globle.
 
 ## File Directory
 
-1. [**data**](https://github.com/ianjeffries/text-sentiment-analysis/tree/master/data) - contains the three files used in analysis:  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. [maldives_hotel_reviews.csv](https://github.com/ianjeffries/text-sentiment-analysis/blob/master/data/maldives_hotel_reviews.csv) - Hotel reviews of resorts in the Republic of Maldives.  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. [negative-lexicon.txt](https://github.com/ianjeffries/text-sentiment-analysis/blob/master/data/negative-lexicon.txt) - Negative lexicon used to locate "negative" words.  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. [positive-lexicon.txt](https://github.com/ianjeffries/text-sentiment-analysis/blob/master/data/positive-lexicon.txt) - Positive lexicon used to locate "positive" words.  
+1. [**data**](https://github.com/imverma/text-sentiment-analysis/tree/master/data) - contains the three files used in analysis:  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. [maldives_hotel_reviews.csv](https://github.com/imverma/text-sentiment-analysis/blob/master/data/maldives_hotel_reviews.csv) - Hotel reviews of resorts in the Republic of Maldives.  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. [negative-lexicon.txt](https://github.com/imverma/text-sentiment-analysis/blob/master/data/negative-lexicon.txt) - Negative lexicon used to locate "negative" words.  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. [positive-lexicon.txt](https://github.com/imverma/text-sentiment-analysis/blob/master/data/positive-lexicon.txt) - Positive lexicon used to locate "positive" words.  
      
-2. [**images**](https://github.com/ianjeffries/text-sentiment-analysis/tree/master/images) - contains vizualizations:  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. [body_wordcloud.png](https://github.com/ianjeffries/text-sentiment-analysis/blob/master/images/body_wordcloud.png) - Wordcloud showing commonly occuring words in the review body.  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. [header_wordcloud.PNG](https://github.com/ianjeffries/text-sentiment-analysis/blob/master/images/header_wordcloud.PNG) - Wordcloud showing commonly occuring words in the review header.  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. [monthly_sentiment.png](https://github.com/ianjeffries/text-sentiment-analysis/blob/master/images/monthly_sentiment.png) - Overall sentiment by month for all hotels in the Republic of Maldives.   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. [reviews_by_year.png](https://github.com/ianjeffries/text-sentiment-analysis/blob/master/images/reviews_by_year.png) - Count of reviews by year.  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e. [sentiment_comparison.png](https://github.com/ianjeffries/text-sentiment-analysis/blob/master/images/sentiment_comparison.png) - Comparision of negative and positive wordcounts.   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f. [top_12_hotels.png](https://github.com/ianjeffries/text-sentiment-analysis/blob/master/images/top_12_hotels.png) - Top 12 resorts sentiment comparison.   
+2. [**images**](https://github.com/imverma/text-sentiment-analysis/tree/master/images) - contains vizualizations:  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. [body_wordcloud.png](https://github.com/imverma/text-sentiment-analysis/blob/master/images/body_wordcloud.png) - Wordcloud showing commonly occuring words in the review body.  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. [header_wordcloud.PNG](https://github.com/imverma/text-sentiment-analysis/blob/master/images/header_wordcloud.PNG) - Wordcloud showing commonly occuring words in the review header.  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. [monthly_sentiment.png](https://github.com/imverma/text-sentiment-analysis/blob/master/images/monthly_sentiment.png) - Overall sentiment by month for all hotels in the Republic of Maldives.   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. [reviews_by_year.png](https://github.com/imverma/text-sentiment-analysis/blob/master/images/reviews_by_year.png) - Count of reviews by year.  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e. [sentiment_comparison.png](https://github.com/imverma/text-sentiment-analysis/blob/master/images/sentiment_comparison.png) - Comparision of negative and positive wordcounts.   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f. [top_12_hotels.png](https://github.com/imverma/text-sentiment-analysis/blob/master/images/top_12_hotels.png) - Top 12 resorts sentiment comparison.   
   
-3. [**text_mining.Rmd**](https://github.com/ianjeffries/text-sentiment-analysis/blob/master/text_mining.Rmd) - R Markdown detailing the text mining process.  
+3. [**text_mining.Rmd**](https://github.com/imverma/text-sentiment-analysis/blob/master/text_mining.Rmd) - R Markdown detailing the text mining process.  
   
-4. [**text_mining.pdf**](https://github.com/ianjeffries/text-sentiment-analysis/blob/master/text_mining.pdf) - PDF that shows R code and the outputted results, for easy viewing.
+4. [**text_mining.pdf**](https://github.com/imverma/text-sentiment-analysis/blob/master/text_mining.pdf) - PDF that shows R code and the outputted results, for easy viewing.
   
-5. [**results.pdf**](https://github.com/ianjeffries/hotel-review-text-mining/blob/master/results.pdf) - A full write-up comparing text mining in R vs SAS.
+5. [**results.pdf**](https://github.com/imverma/hotel-review-text-mining/blob/master/results.pdf) - A full write-up comparing text mining in R vs SAS.
 
 ## Language and Packages Used
 
